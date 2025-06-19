@@ -11,23 +11,23 @@ st.markdown("Masukkan data siswa di bawah ini untuk memprediksi apakah siswa ber
 
 # Input form
 course = st.number_input("Kode Program Studi",
-                         min_value=0, max_value=9999, value=9238,
+                         min_value=0, max_value=9999,
                          help="Contoh: 9238 untuk program Teknik Informatika")
 
 prev_grade = st.number_input("Nilai Kualifikasi Sebelumnya",
-                             min_value=0.0, max_value=200.0, value=132.0,
+                             min_value=0.0, max_value=200.0,
                              help="Nilai dari pendidikan sebelumnya. Contoh: 132.0")
 
 admission_grade = st.number_input("Nilai Masuk (Admission Grade)",
-                                  min_value=0.0, max_value=200.0, value=130.5,
+                                  min_value=0.0, max_value=200.0,
                                   help="Nilai hasil seleksi masuk. Contoh: 130.5")
 
 age = st.number_input("Usia saat mendaftar (Age at Enrollment)",
-                      min_value=15, max_value=70, value=19,
+                      min_value=15, max_value=70,
                       help="Contoh: 19 tahun")
 
 units_approved_1 = st.number_input("Jumlah Mata Kuliah Lulus Semester 1",
-                                   min_value=0, max_value=50, value=6,
+                                   min_value=0, max_value=50,
                                    help="Contoh: 6 mata kuliah yang berhasil lulus pada semester 1")
 
 # Tombol prediksi
