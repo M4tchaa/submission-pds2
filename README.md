@@ -39,7 +39,7 @@ Dashboard menyajikan beberapa visualisasi penting:
 Database: dropout.db
 Metabase login: root@mail.com / root123
 Screenshot: matcha-dashboard
-![screenshoot Dashboard](dropout_dashboard.jpg)
+![screenshoot Dashboard](itsMatcha_dashboard.jpg)
 
 Dashboard dapat dijalankan lokal dengan Docker container Metabase.
 
